@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: blue;
+  display: flex;
+  flex-flow: column;
+}
+
+.nav-bar{
+  background-color: black;
+  flex: 0 0 10vh;
+  width: 100vw;
+}
+
+.main{
+  background-color: pink;
+  flex-flow: row;
+  flex: 0 0 auto;
+}
+
+.left-side{
+  background-color: green;
+  flex: 0 0 60vw;
+  height: 90vh;
+  order: 1;
+}
+
+.right-side{
+  background-color: purple;
+  align-self: flex-end;
+  flex: 0 0 40vw;
+  height: 90vh;
+  order: 2;
+}
